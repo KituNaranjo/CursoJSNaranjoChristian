@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/index.js"></script>
+    <title>Básquet</title>
+</head>
+<body>
+    <div class="head">
+        <div class="logo">
+            <a href="index.html"><img src="img/Logo-NBA.png" alt="Básquet"></a>
+        </div>
+        <nav class="barra_navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="historia.html">Historia del Básquet</a>
+            <a href="reglas.html">Reglas de Juegos</a>
+            <a href="equipos.html">Equipos Destacados</a>
+        </nav>
+    </div>
+
+    <header class="contenido_introduccion header">
+        <h2 class="introduccion">Básquet</h2>
+        <h3>¡Aquí podrás encontrar información sobre las reglas de juegos, equipos destacados y la historia del baloncesto!</h3>
+    </header>
+
+    <section class="content pagina_inicio">
+        <h1 class="titulos">Video Introductorio</h1>
+        <video controls class="video">
+            <source src="videos/NBA.mp4" type="video/mp4">
+        </video>
+        <br>
+        <h1 class="titulos">Encuesta</h1>
+        <h6 class="subtitulos">Comparte tu opinion despues de revisar toda la página dejando los enlaces de Tiktok o Instagram:</h6>
+        <form id="survey-form" class="centrado">
+            <div class="form-group">
+              <label for="nombre">Ingrese su nombre y apellido:</label>
+              <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="edad">Edad:</label>
+              <input type="number" class="form-control" id="edad" required>
+            </div>
+            <div class="form-group">
+              <label for="opinion">Opinión:</label>
+              <textarea class="form-control" id="opinion" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+              <label for="enlace">Enlaces de Tiktok o Instagram:</label>
+              <input type="text" class="form-control" id="enlace" required>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+          </form> 
+    </section>
+
+    <section class="content contactos">
+        <div class="derechos-reservados">
+            <h4 class="titulo_contactos">Información de contacto</h4>
+              <p>Christian Naranjo</p>
+              <p>Carrera de Ciencias de la Computación</p>
+              <p>Mis redes sociales</p>
+            <div class="social">
+                <ul>
+                    <li><a href="https://wa.me/593983979070"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+                    <li><a href="https://www.facebook.com/kitu.naranjo"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com/kitu.naranjo"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://twitter.com/kitunaranjo"><i class="fab fa-twitter fa-2x"></i></a></li>
+                    <li><a href="https://github.com/KituNaranjo"><i class="fab fa-github fa-2x"></i></a></li>
+                </ul>
+            </div>
+            <br>
+              <p>Todos los derechos reservados Christian Naranjo ©</p>
+      </div>
+  </section>
+</body>
+</html>
